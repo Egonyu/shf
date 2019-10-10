@@ -10,9 +10,32 @@
 | to using a Closure or controller method. Build something great!
 |
 */
+// Routes for the front_end
+// Route::get('/', function (){
+// 	return view('pages.home.index');
+// });
+
+Route::get('/', ['uses' => 'HomeController@index', 'as' => 'index']);
+
+Route::get('/about', function (){
+	return view('pages.about');
+});
+
+Route::get('/causes', function (){
+	return view('pages.causes.causes');
+});
+
+Route::get('/gallery', function (){
+	return view('pages.gallery.gallery');
+});
+
+Route::get('/contact', function (){
+	return view('pages.contact.contact');
+});
+
 
 // Site route
-Route::get('/', ['uses' => 'HomeController@index', 'as' => 'index']);
+// Route::get('/', ['uses' => 'HomeController@index', 'as' => 'index']); commented the index original index page
 Route::get('/projects', ['uses' => 'HomeController@projects', 'as' => 'projects']);
 Route::get('/search', ['uses' => 'HomeController@search', 'as' => 'search']);
 Route::get('/achieve', ['uses' => 'HomeController@achieve', 'as' => 'achieve']);
