@@ -55,7 +55,7 @@
 					<div class="col-sm-6 col-md-6">
 						<div class="img-video">
 							<a href="https://www.youtube.com/watch?v=vNDrLjOmUY4" class="popup-youtube play-video"><i class="fa fa-play fa-2x"></i></a>
-							<img src="images/dummy-img-600x400.jpg" alt="">
+							<img src="{{ asset('frontend/images/slider/solar-energy.jpg') }}" alt="">
 							<div class="ripple"></div>
 						</div>
 							
