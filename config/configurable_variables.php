@@ -13,15 +13,15 @@
 return [
     'groups' => [
         [
-            'group_name' => '常用',
+            'group_name' => 'Commonly used',
             'children' => [
                 [
                     'name' => 'google_analytics',
                     'type' => 'radio',
                     'default' => 'false',
                     'values' => [
-                        'true' => '启用谷歌分析',
-                        'false' => '禁用谷歌分析',
+                        'true' => 'Enable Google Analytics',
+                        'false' => 'Disable Google Analytics',
                     ],
                 ],
                 [
@@ -29,8 +29,8 @@ return [
                     'type' => 'radio',
                     'default' => 'false',
                     'values' => [
-                        'true' => '启用邮件通知',
-                        'false' => '禁用邮件通知',
+                        'true' => 'Enable email notifications',
+                        'false' => 'Disable email notifications',
                     ],
                 ],
                 [
@@ -38,8 +38,8 @@ return [
                     'type' => 'radio',
                     'default' => 'raw',
                     'values' => [
-                        'none' => '关闭评(不显示)',
-                        'raw' => '自带评论',
+                        'none' => 'Comments Disabled',
+                        'raw' => 'Commnets',
                         'disqus' => 'Disqus',
                     ],
                 ],
@@ -48,8 +48,8 @@ return [
                     'type' => 'radio',
                     'default' => 'true',
                     'values' => [
-                        'true' => '允许评论',
-                        'false' => '禁止评论(仍会显示已有评论)',
+                        'true' => 'Comments Allowed',
+                        'false' => 'Prohibited Comments',
                     ],
                 ],
                 [
@@ -57,8 +57,8 @@ return [
                     'type' => 'radio',
                     'default' => 'false',
                     'values' => [
-                        'true' => '启用热门文章',
-                        'false' => '禁用热门文章',
+                        'true' => 'Enable popular articles',
+                        'false' => 'Disable popular articles',
                     ],
                 ],
                 [
@@ -66,38 +66,38 @@ return [
                     'type' => 'radio',
                     'default' => 'false',
                     'values' => [
-                        'true' => '开启赞赏',
-                        'false' => '关闭赞赏',
+                        'true' => 'Enable Appreciation',
+                        'false' => 'Disable Appreciation',
                     ],
                 ],
                 [
                     'name' => 'pay_description',
-                    'label' => '赞赏描述',
-                    'default' => '写的不错，赞助一下主机费'
+                    'label' => 'Appreciation Comment',
+                    'default' => 'Written well, sponsor the the Cause'
                 ],
             ]
         ],
 
         [
-            'group_name' => '个人信息',
+            'group_name' => 'Personal information',
             'children' => [
                 [
                     'name' => 'author',
-                    'label' => '作者',
+                    'label' => 'Author',
                 ],
                 [
                     'name' => 'description',
-                    'label' => '描述',
+                    'label' => 'Description',
                 ],
                 [
                     'name' => 'avatar',
-                    'label' => '头像',
+                    'label' => 'Avatar',
                 ],
                 [
                     'name' => 'other_information',
                     'type' => 'textarea',
-                    "placeholder" => "支持 text 和 html",
-                    'label' => '其他信息',
+                    "placeholder" => "Supports Text and Html",
+                    'label' => 'Other Information',
                 ],
                 [
                     'name' => 'social_facebook',
@@ -112,10 +112,6 @@ return [
                     'label' => 'GitHub link',
                 ],
                 [
-                    'name' => 'social_weibo',
-                    'label' => 'Weibo link',
-                ],
-                [
                     'name' => 'social_instagram',
                     'label' => 'Instagram link',
                 ],
@@ -128,20 +124,8 @@ return [
                     'label' => 'Tumblr link',
                 ],
                 [
-                    'name' => 'social_stackoverflow',
-                    'label' => 'StackOverflow link',
-                ],
-                [
-                    'name' => 'social_dribbble',
-                    'label' => 'Dribbble link',
-                ],
-                [
                     'name' => 'social_linkedin',
                     'label' => 'LinkedIn link',
-                ],
-                [
-                    'name' => 'social_gitlab',
-                    'label' => 'GitLab link',
                 ],
                 [
                     'name' => 'social_pinterest',
@@ -154,12 +138,12 @@ return [
             ]
         ],
         [
-            'group_name' => '网站',
+            'group_name' => 'website',
             'children' => [
                 [
                     'name' => 'google_trace_id',
-                    'label' => '跟踪ID',
-                    'placeholder' => '谷歌跟踪ID'
+                    'label' => 'Google Tracking ID',
+                    'placeholder' => 'Enter Google Tracking ID'
                 ],
                 [
                     'name' => 'disqus_shortname',
@@ -167,69 +151,69 @@ return [
                 ],
                 [
                     'name' => 'github_username',
-                    'label' => 'Github用户名',
+                    'label' => 'Github UserName',
                 ],
                 [
                     'name' => 'blog_brand',
                     'label' => 'Logo',
-                    "placeholder" => "支持 text 和 html",
+                    "placeholder" => "Supports Text and Html",
                     "type" => "textarea"
                 ],
                 [
                     'name' => 'site_title',
-                    'label' => '标题',
+                    'label' => 'Website Title',
                 ],
                 [
                     'name' => 'site_keywords',
-                    'label' => '关键字',
-                    "placeholder" => "网站关键字"
+                    'label' => 'Keyword(s)',
+                    "placeholder" => "Enter Website keyword"
                 ],
                 [
                     'name' => 'site_description',
-                    'label' => '网站描述',
+                    'label' => 'Short Description',
                 ],
                 [
                     'name' => 'site_header_title',
-                    'label' => '网站 Head 标题',
+                    'label' => 'Website Head Title',
                 ],
                 [
                     'name' => 'page_size',
-                    'label' => '每页数量',
+                    'label' => 'Number of Posts per page',
                     'default' => 7,
                     "type" => "number"
                 ],
                 [
                     'name' => 'hot_posts_count',
-                    'label' => '热门文章数量',
+                    'label' => 'Popular article count',
                     'default' => 5,
                     "type" => "number"
                 ],
                 [
                     'name' => 'case_number',
-                    'label' => '备案号'
+                    'label' => 'record number'
                 ],
             ]
         ],
         [
-            'group_name' => '图片',
+            'group_name' => 'Image',
             'children' => [
 
                 [
                     'name' => 'profile_image',
-                    'label' => '简介图片',
+                    'label' => 'Profile picture',
                 ],
                 [
                     'name' => 'header_bg_image',
-                    'label' => 'Header背景图片',
+                    'label' => 'Header background image',
                 ],
                 [
                     'name' => 'header_image_provider',
                     'type' => 'radio',
                     'default' => 'none',
-                    'label' => '动态Header背景图片',
+                    'label' => 'Dynamic Header Background Picture',
                     'values' => [
-                        'none' => '关闭',
-                        'bing' => '必应每日壁纸',
+                        'none' => 'None',
+                        'bing' => 'Bing Daily Wallpaper',
                         'picsum' => 'Picsum',
                     ],
                 ],
@@ -237,31 +221,31 @@ return [
                     'name' => 'header_image_update_rate',
                     'type' => 'radio',
                     'default' => 'every_day',
-                    'label' => '动态Header背景图片更新频率',
+                    'label' => 'Dynamic Header background image update frequency',
                     'values' => [
-                        'every_minute' => '每分钟',
-                        'every_hour' => '每小时',
-                        'every_day' => '每天',
-                        'every_week' => '每周',
+                        'every_minute' => 'Every minute',
+                        'every_hour' => 'Every Hour',
+                        'every_day' => 'Every Day',
+                        'every_week' => 'Every Week',
                     ],
                 ],
                 [
                     'name' => 'admin_sidebar_bg_image',
-                    'label' => 'Dashboard背景图片',
+                    'label' => 'Dashboard background image',
                 ],
                 [
                     'name' => 'home_bg_images',
-                    'label' => 'Home背景图片',
+                    'label' => 'Home background image',
                     "type" => "textarea",
-                    "placeholder" => "可以多个, 一行一个"
+                    "placeholder" => "Can be multiple, one line per line"
                 ],
                 [
                     'name' => 'zhifubao_pay_image_url',
-                    'label' => '支付宝支付二维码',
+                    'label' => 'Alipay payment QR code',
                 ],
                 [
                     'name' => 'wechat_pay_image_url',
-                    'label' => '微信支付二维码',
+                    'label' => 'WeChat payment QR code',
                 ],
             ]
         ],
