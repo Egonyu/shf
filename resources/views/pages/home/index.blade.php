@@ -577,6 +577,7 @@
 	</div>
 
 	<!-- OUR PARTNERS -->
+	<!--
 	<div class="section">
 		<div class="content-wrap">
 			<div class="container">
@@ -616,5 +617,6 @@
 			</div>
 		</div>
 	</div>
+	-->
 
 @endsection
