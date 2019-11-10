@@ -10,4 +10,9 @@ class ShfPages extends Controller
     {
         return view('pages.youthempowerment');
     }
+
+    public function ourTeam()
+    {
+        return view('pages.team.ourteam');
+    }
 }
