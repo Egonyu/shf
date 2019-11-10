@@ -33,6 +33,9 @@ Route::get('/contact', function (){
 	return view('pages.contact.contact');
 });
 
+Route::get('/youthempowerment', 'ShfPages@youthempowerment')->name('youthempowerment');
+
+
 
 // Site route
 // Route::get('/', ['uses' => 'HomeController@index', 'as' => 'index']); commented the index original index page

@@ -2,7 +2,7 @@
 
 @section('content')
 	<!-- BANNER -->
-	<div class="section banner-page" data-background="images/dummy-img-1920x300.jpg">
+	<div class="section banner-page" data-background="{{ asset('frontend/images/slider/solar-energy.jpg') }}">
 		<div class="content-wrap pos-relative">
 			<div class="d-flex justify-content-center bd-highlight mb-3">
 				<div class="title-page">Contact</div>
@@ -29,7 +29,7 @@
 						<div class="maps-wraper">
 							<div id="cd-zoom-in"></div>
 							<div id="cd-zoom-out"></div>
-							<div id="maps" class="maps" data-lat="-7.452278" data-lng="112.708992" data-marker="images/cd-icon-location.png">
+							<div id="maps" class="maps" data-lat="8.9036856" data-lng="11.3537515" data-marker="images/cd-icon-location.png">
 							</div>
 						</div>
 						<div class="spacer-90"></div>
@@ -44,7 +44,7 @@
 							<div class="info-icon">
 								<i class="fa fa-map-marker"></i>
 							</div>
-							<div class="info-text">99 S.t Jomblo Park Pekanbaru 28292. Indonesia</div>
+							<div class="info-text">Behind Federal Science Technical College, Jalingo </div>
 						</div>
 
 						<div class="rs-icon-info">
@@ -58,7 +58,7 @@
 							<div class="info-icon">
 								<i class="fa fa-phone"></i>
 							</div>
-							<div class="info-text">(0761) 654-123987</div>
+							<div class="info-text">+234 (0) 703 486 1488</div>
 						</div>
 
 						

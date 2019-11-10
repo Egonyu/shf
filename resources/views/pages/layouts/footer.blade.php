@@ -80,9 +80,9 @@
 							<p>You can always find us on the social media discussing various matters that affect our dear continent</p>
 							<div class="sosmed-icon primary">
 								<a href="www.facebook.com/sauzarhealthfoundation"><i class="fa fa-facebook"></i></a> 
-								<a href="www.twitter.com/sauzarhealthf"><i class="fa fa-twitter"></i></a> 
+								<a href="www.twitter.com/SauzarF"><i class="fa fa-twitter"></i></a> 
 								<a href="www.instagram.com/sauzarhealthfoundation"><i class="fa fa-instagram"></i></a> 
-								<a href="www.pinterest.com/sauzarhealthfoundation"><i class="fa fa-pinterest"></i></a> 
+								<a href="www.linkedin.com/in/sauzar-health-foundation-5828a5193"><i class="fa fa-linkedin"></i></a> 
 							</div>
 						</div>
 					</div>

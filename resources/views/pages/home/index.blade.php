@@ -36,7 +36,7 @@
 
         <div class="owl-slide">
         	<div class="item">
-	            <img src=" {{ asset('frontend/images/slider/team-back.jpg') }} " alt="Slider" style="opacity: 3">
+	            <img src=" {{ asset('frontend/images/slider/team-back.JPG') }} " alt="Slider" style="opacity: 3">
 	            <div class="slider-pos">
 		            <div class="container">
 		            	<div class="wrap-caption right">
@@ -61,7 +61,7 @@
 						<h2 class="section-heading center">
 							Welcome <span>To</span> Sauzar Health Foundation
 						</h2>
-						<p class="subheading text-center"> Sauzar Health Foundation Abbreviated SHF is a for and not for profit
+						<p class="subheading text-center"> Sauzar Health Foundation Abbreviated SHF is non governmental
 							Organization aiming at advocacy, education, sensitizing, and empowering for better health,
 							creating livelihood, maintaining, preserving and protecting a healthy living environment.</p>
 					</div>
@@ -86,9 +86,9 @@
 		                		<i class="fa fa-gift"></i>
 		              		</div>
 		              		<div class="no">02</div>
-		              		<p class="subtitle">ECO FRIENDLY</p>
+		              		<p class="subtitle"><a href="{{ route('youthempowerment') }}">EMPOWERMENT</a></p>
 		              		<h3 class="title">Donate Now</h3>
-		              		<div class="text">Promote Solar Power: Eco Friendly Energy Consumption. Solar power is the form of renewable energy available for human actions apart from wind, tide, and hydroelectric energy.</div>
+		              		<div class="text">Empowerment is a measure or ways which is designed to increase the level of autonomy and self determination in people and in the communities in order to enable them to represent their interest in a responsible and self-determined way, acting on their own authority.</div>
 			            </div>
 			        </div>
 			        <!-- Item 3 -->
@@ -98,7 +98,7 @@
 		                		<i class="fa fa-bullhorn"></i>
 		              		</div>
 		              		<div class="no">03</div>
-		              		<p class="subtitle">View Our Events</p>
+		              		<p class="subtitle">POLYTHEN FREE ENVIRONMENT</p>
 		              		<h3 class="title">Get involved</h3>
 		              		<div class="text">With a wide range of activities that sauzar health foundation is engaed with from Teaching, Actioned tree planting, Mass sentization, one or more events take place every now and them, look out our latest events.</div>
 			            </div>
@@ -448,12 +448,26 @@
 							Meet <span>Our</span> Volunteer
 						</h2>
 					</div>
-
+					<div class="clearfix"></div>
 					<div class="col-sm-3 col-md-3">
 						<div class="rs-team-1">
-							<div class="media"><img src=" {{ asset('frontend/images/profiles/sauzar.jpg') }} " alt=""></div>
+							<div class="media"><img src=" {{ asset('frontend/images/profiles/cbt.jpg') }} " alt=""></div>
 							<div class="body">
-								<div class="title">A.A Sauzar</div>
+								<div class="title">ABUBAKAR BILA MUHAMMAD</div>
+								<div class="position">Chairman Board Of Trustee</div>
+								<ul class="social-icon">
+									<li><a href="www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
+									<li><a href="www.twitter.com/"><span class="fa fa-twitter"></span></a></li>
+									<li><a href="www.linkedin.com/"><span class="fa fa-google-plus"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-3">
+						<div class="rs-team-1">
+							<div class="media"><img src=" {{ asset('frontend/images/profiles/abu.png') }} " alt=""></div>
+							<div class="body">
+								<div class="title">ABUSUFYAN AYYUB</div>
 								<div class="position">CEO & Founder</div>
 								<ul class="social-icon">
 									<li><a href="www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
@@ -466,9 +480,9 @@
 
 					<div class="col-sm-3 col-md-3">
 						<div class="rs-team-1">
-							<div class="media"><img src=" {{ asset('frontend/images/profiles/taure.jpg') }} " alt=""></div>
+							<div class="media"><img src=" {{ asset('frontend/images/profiles/drull.jpg') }} " alt=""></div>
 							<div class="body">
-								<div class="title">Drusila Ahmed Taure</div>
+								<div class="title">DRUSILA AHMED TAURE</div>
 								<div class="position">Vice President</div>
 								<ul class="social-icon">
 									<li><a href="www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
@@ -479,20 +493,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
-						<div class="rs-team-1">
-							<div class="media"><img src=" {{ asset('frontend/images/profiles/mustapha.jpg') }} " alt=""></div>
-							<div class="body">
-								<div class="title">Mustapha Muhammad</div>
-								<div class="position">Communication and Dissemination Manager/Coordinator </div>
-								<ul class="social-icon">
-									<li><a href="www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
-									<li><a href="www.twitter.com/"><span class="fa fa-twitter"></span></a></li>
-									<li><a href="www.linkedin.com/"><span class="fa fa-google-plus"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
+					
 
 					<div class="col-sm-3 col-md-3">
 						<div class="promo-ads" data-background=" {{ ('frontend/images/20220.jpg') }} ">
@@ -506,7 +507,22 @@
 							</div>
 						</div>
 					</div>
-
+					
+					<div class="col-sm-3 col-md-3">
+						<div class="rs-team-1">
+							<div class="media"><img src=" {{ asset('frontend/images/profiles/tata.JPG') }} " alt=""></div>
+							<div class="body">
+								<div class="title">MUSTAPHA MUHAMMAD</div>
+								<div class="position">Communication and Dissemination Manager/Coordinator </div>
+								<ul class="social-icon">
+									<li><a href="www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
+									<li><a href="www.twitter.com/"><span class="fa fa-twitter"></span></a></li>
+									<li><a href="www.linkedin.com/"><span class="fa fa-google-plus"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
 
 				</div>
 			</div>

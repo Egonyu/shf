@@ -42,7 +42,7 @@
 									<div class="col-sm-4 col-md-4">
 							            <div class="box-fundraising">
 						              		<div class="media">
-						                		<img src="frontend/images/17105.jpg" alt="">
+						                		<img src="{{ asset('frontend/images/site/vaccination.jpg') }}" alt="">
 						              		</div>
 						              		<div class="body-content">
 						              			<p class="title"><a href="cause-single.html">EDUCATION FOR SYRIAN CHILD</a></p>
@@ -55,7 +55,7 @@
 									<div class="col-sm-4 col-md-4">
 							            <div class="box-fundraising">
 						              		<div class="media">
-						                		<img src="images/dummy-img-600x400.jpg" alt="">
+						                		<img src="{{ asset('frontend/images/site/presentation.jpg') }}" alt="">
 						              		</div>
 						              		<div class="body-content">
 						              			<p class="title"><a href="cause-single.html">HOME FOR KAMPAR'S CHILD</a></p>
