@@ -14,7 +14,7 @@
 			        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 			            <ul class="navbar-nav ml-auto">
 			                <li class="nav-item">
-			                    <a class="nav-link  active" href=" {{ url('/') }} ">Home</a>
+			                    <a class="nav-link  active" href=" {{ url('/') }} ">HOME</a>
 			                </li>
 			               
 			                <li class="nav-item dropdown">
@@ -22,21 +22,39 @@
 						          ABOUT
 						        </a>
 			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">About Us</a>
-	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">Our Team</a>
+			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">ABOUT US</a>
+	          						<a class="dropdown-item" href=" {{ route('ourteam') }} ">OUR TEAM</a>
 							    </div>
 			                </li>
+			                <li class="nav-item dropdown">
+			                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						          PROGRAMS
+						        </a>
+			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">EDUCATION</a>
+	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">SANITATION</a>
+	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">POLLUTION</a>
+	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">POLYTHENE FREE ENVIRONMENT</a>
+	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">EMPOWERMENT</a>
+	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">GARBAGE RECYCLING</a>
+							    </div>
+							</li>
 			                <li class="nav-item">
-			                    <a class="nav-link" href=" {{ url('/causes') }} ">Cause</a>
+			                    <a class="nav-link" href=" {{ url('/causes') }} ">CAMPAIGNS</a>
+			                </li>
+			                
+			                <li class="nav-item">
+			                    <a class="nav-link" href=" {{ url('/gallery') }} ">GALLERY</a>
 			                </li>
 			                <li class="nav-item">
-			                    <a class="nav-link" href=" {{ url('/contact') }} ">Contact Us</a>
+			                    <a class="nav-link" href=" {{ url('/blog') }} ">BLOG</a>
+							</li>
+							
+							<li class="nav-item">
+			                    <a class="nav-link" href=" {{ url('/career') }} ">CAREERS</a>
 			                </li>
 			                <li class="nav-item">
-			                    <a class="nav-link" href=" {{ url('/gallery') }} ">Gallery</a>
-			                </li>
-			                <li class="nav-item">
-			                    <a class="nav-link" href=" {{ url('/blog') }} ">Blog</a>
+			                    <a class="nav-link" href=" {{ url('/contact') }} ">CONTACT US</a>
 			                </li>
 			            </ul>
 			            <a href=" {{ url('/contact') }} " class="btn btn-primary btn-nav ml-auto">DONATE NOW</a>

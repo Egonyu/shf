@@ -10,7 +10,7 @@
 			<div class="d-flex justify-content-center bd-highlight mb-3">
 			    <nav aria-label="breadcrumb">
 				  <ol class="breadcrumb ">
-				    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				    <li class="breadcrumb-item"><a href="{{ route('index') }}">Home</a></li>
 				    <li class="breadcrumb-item active" aria-current="page">Cause</li>
 				  </ol>
 				</nav>
@@ -68,7 +68,7 @@
 									<div class="col-sm-4 col-md-4">
 							            <div class="box-fundraising">
 						              		<div class="media">
-						                		<img src="images/dummy-img-600x400.jpg" alt="">
+						                		<img src="{{ asset('frontend/images/site/drull.jpg') }}" alt="">
 						              		</div>
 						              		<div class="body-content">
 						              			<p class="title"><a href="cause-single.html">CLEAN WATER FOR SOUTH SUDAN'S</a></p>

@@ -10,4 +10,9 @@ class ShfPages extends Controller
     {
         return view('pages.youthempowerment');
     }
+
+    public function career()
+    {
+        return view('pages.career.career');
+    }
 }

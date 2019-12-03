@@ -42,7 +42,7 @@
 							<!-- ITEM 2 -->
 							<div class="col-xs-6 col-md-3">
 								<div class="box-gallery">
-									<a href=" {{ asset('frontend/images/gallery/2.jpg') }} " title="Gallery #2">
+									<a href=" {{ asset('frontend/images/gallery/2.JPG') }} " title="Gallery #2">
 										<img src="{{ asset('frontend/images/gallery/2.jpg') }}" alt="" class="img-fluid">
 										<div class="project-info">
 											<div class="project-icon">
@@ -55,7 +55,7 @@
 							<!-- ITEM 3 -->
 							<div class="col-xs-6 col-md-3">
 								<div class="box-gallery">
-									<a href="{{ asset('frontend/images/gallery/3.jpg') }}" title="Gallery #3">
+									<a href="{{ asset('frontend/images/gallery/3.JPG') }}" title="Gallery #3">
 										<img src="{{ asset('frontend/images/gallery/3.jpg') }}" alt="" class="img-fluid">
 										<div class="project-info">
 											<div class="project-icon">
@@ -68,8 +68,8 @@
 							<!-- ITEM 4 -->
 							<div class="col-xs-6 col-md-3">
 								<div class="box-gallery">
-									<a href="{{ asset('frontend/images/gallery/4.jpg') }}" title="Gallery #4">
-										<img src="{{ asset('frontend/images/gallery/4.jpg') }}" alt="" class="img-fluid">
+									<a href="{{ asset('frontend/images/gallery/4.JPG') }}" title="Gallery #4">
+										<img src="{{ asset('frontend/images/gallery/4.JPG') }}" alt="" class="img-fluid">
 										<div class="project-info">
 											<div class="project-icon">
 												<span class="fa fa-search"></span>
@@ -81,8 +81,8 @@
 							<!-- ITEM 5 -->
 							<div class="col-xs-6 col-md-3">
 								<div class="box-gallery">
-									<a href="{{ asset('frontend/images/gallery/5.jpg') }}" title="Gallery #5">
-										<img src="{{ asset('frontend/images/gallery/5.jpg') }}" alt="" class="img-fluid">
+									<a href="{{ asset('frontend/images/gallery/5.JPG') }}" title="Gallery #5">
+										<img src="{{ asset('frontend/images/gallery/5.JPG') }}" alt="" class="img-fluid">
 										<div class="project-info">
 											<div class="project-icon">
 												<span class="fa fa-search"></span>
@@ -94,8 +94,8 @@
 							<!-- ITEM 6 -->
 							<div class="col-xs-6 col-md-3">
 								<div class="box-gallery">
-									<a href="{{ asset('frontend/images/gallery/6.jpg') }}" title="Gallery #6">
-										<img src="{{ asset('frontend/images/gallery/6.jpg') }}" alt="" class="img-fluid">
+									<a href="{{ asset('frontend/images/gallery/6.JPG') }}" title="Gallery #6">
+										<img src="{{ asset('frontend/images/gallery/6.JPG') }}" alt="" class="img-fluid">
 										<div class="project-info">
 											<div class="project-icon">
 												<span class="fa fa-search"></span>
@@ -107,8 +107,8 @@
 							<!-- ITEM 7 -->
 							<div class="col-xs-6 col-md-3">
 								<div class="box-gallery">
-									<a href="{{ asset('frontend/images/gallery/7.jpg') }}" title="Gallery #7">
-										<img src="{{ asset('frontend/images/gallery/7.jpg') }}" alt="" class="img-fluid">
+									<a href="{{ asset('frontend/images/gallery/7.JPG') }}" title="Gallery #7">
+										<img src="{{ asset('frontend/images/gallery/7.JPG') }}" alt="" class="img-fluid">
 										<div class="project-info">
 											<div class="project-icon">
 												<span class="fa fa-search"></span>
@@ -120,8 +120,8 @@
 							<!-- ITEM 8 -->
 							<div class="col-xs-6 col-md-3">
 								<div class="box-gallery">
-									<a href="{{ asset('frontend/images/gallery/8.jpg') }}" title="Gallery #8">
-										<img src="{{ asset('frontend/images/gallery/8.jpg') }}" alt="" class="img-fluid">
+									<a href="{{ asset('frontend/images/gallery/8.JPG') }}" title="Gallery #8">
+										<img src="{{ asset('frontend/images/gallery/8.JPG') }}" alt="" class="img-fluid">
 										<div class="project-info">
 											<div class="project-icon">
 												<span class="fa fa-search"></span>
@@ -133,8 +133,8 @@
 							<!-- ITEM 9 -->
 							<div class="col-xs-6 col-md-3">
 								<div class="box-gallery">
-									<a href="{{ asset('frontend/images/gallery/9.jpg') }}" title="Gallery #9">
-										<img src="{{ asset('frontend/images/gallery/9.jpg') }}" alt="" class="img-fluid">
+									<a href="{{ asset('frontend/images/gallery/9.JPG') }}" title="Gallery #9">
+										<img src="{{ asset('frontend/images/gallery/9.JPG') }}" alt="" class="img-fluid">
 										<div class="project-info">
 											<div class="project-icon">
 												<span class="fa fa-search"></span>
@@ -146,8 +146,8 @@
 							<!-- ITEM 10 -->
 							<div class="col-xs-6 col-md-3">
 								<div class="box-gallery">
-									<a href="{{ asset('frontend/images/gallery/10.jpg') }}" title="Gallery #10">
-										<img src="{{ asset('frontend/images/gallery/10.jpg') }}" alt="" class="img-fluid">
+									<a href="{{ asset('frontend/images/gallery/10.JPG') }}" title="Gallery #10">
+										<img src="{{ asset('frontend/images/gallery/10.JPG') }}" alt="" class="img-fluid">
 										<div class="project-info">
 											<div class="project-icon">
 												<span class="fa fa-search"></span>

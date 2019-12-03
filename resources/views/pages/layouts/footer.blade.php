@@ -8,7 +8,8 @@
 						<div class="footer-item">
 							<img src=" {{ asset('frontend/images/logo-wite.png') }} " alt="logo bottom" class="logo-bottom">
 							<div class="spacer-30"></div>
-							<p>Sauzar Health Foundation Abbreviated SHF is a for and not for profit Organization aiming at advocacy, education, sensitizing, and empowering for better health, creating livelihood, maintaining, preserving and protecting a healthy living environment.</p>
+							<p>Sauzar Health Foundation Abbreviated SHF is non governmental
+							Organization aiming at advocacy, education, sensitizing, and empowering for better health, reating livelihood, maintaining, preserving and protecting a healthy living environment.</p>
 							<a href=" {{ url('/about') }} "><i class="fa fa-angle-right"></i> Read More</a>
 						</div>
 					</div>
@@ -48,12 +49,12 @@
 									<div class="info-icon">
 										<span class="fa fa-map-marker"></span>
 									</div>
-									<div class="info-text">Gombe State</div> </li>
+									<div class="info-text">Taraba State</div> </li>
 								<li>
 									<div class="info-icon">
 										<span class="fa fa-phone"></span>
 									</div>
-									<div class="info-text">+256 758112954</div>
+									<div class="info-text">+234 703 486 1488</div>
 								</li>
 								<li>
 									<div class="info-icon">
@@ -77,12 +78,12 @@
 							<div class="footer-title">
 								FOLLOW US
 							</div>
-							<p>You can always find us on the social media discussing various matters that affect our dear continent</p>
+							<p>You can always find us on the social media discussing various matters that affect the Globe</p>
 							<div class="sosmed-icon primary">
-								<a href="www.facebook.com/sauzarhealthfoundation"><i class="fa fa-facebook"></i></a> 
-								<a href="www.twitter.com/SauzarF"><i class="fa fa-twitter"></i></a> 
-								<a href="www.instagram.com/sauzarhealthfoundation"><i class="fa fa-instagram"></i></a> 
-								<a href="www.linkedin.com/in/sauzar-health-foundation-5828a5193"><i class="fa fa-linkedin"></i></a> 
+								<a href="{{ url('https://www.facebook.com/sauzarhealthfoundation') }}" target="_blank"><i class="fa fa-facebook"></i></a> 
+								<a href="{{ url('https://www.twitter.com/SauzarF', []) }}" target="_blank"><i class="fa fa-twitter"></i></a> 
+								<a href="https://www.instagram.com/sauzarhealthfoundation" target="_blank"><i class="fa fa-instagram"></i></a> 
+								<a href="https://www.linkedin.com/in/sauzar-health-foundation-5828a5193" target="_blank"><i class="fa fa-linkedin"></i></a> 
 							</div>
 						</div>
 					</div>

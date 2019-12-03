@@ -16,6 +16,7 @@
 // });
 
 Route::get('/', ['uses' => 'HomeController@index', 'as' => 'index']);
+Route::get('/our-team', ['uses' => 'HomeController@ourTeam', 'as' => 'ourteam']);
 
 Route::get('/about', function (){
 	return view('pages.about');
@@ -34,6 +35,7 @@ Route::get('/contact', function (){
 });
 
 Route::get('/youthempowerment', 'ShfPages@youthempowerment')->name('youthempowerment');
+Route::get('/career', 'ShfPages@career')->name('career');
 
 
 

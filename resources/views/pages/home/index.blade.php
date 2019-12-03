@@ -48,6 +48,21 @@
 	            </div>  
             </div>  
         </div>
+
+        <div class="owl-slide">
+        	<div class="item">
+	            <img src=" {{ asset('frontend/images/site/viewers.jpg') }} " alt="Slider" style="opacity: 3">
+	            <div class="slider-pos">
+		            <div class="container">
+		            	<div class="wrap-caption right">
+			                <h1 class="caption-heading"><span>#EDUCATION</span> PROGRAM</h1>
+			                <p>Promote Solar Power: Eco Friendly Energy Consumption. Solar power is the form of renewable energy available for human actions apart from wind, tide, and hydroelectric energy.</p>
+			                <a href="#" class="btn btn-primary">DONATE NOW</a>
+			            </div>  
+		            </div>  
+	            </div>  
+            </div>  
+        </div>
     </div>
 
 	<div class="clearfix"></div>
@@ -303,7 +318,7 @@
 						    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 						      <div class="card-body">
 						        
-								<p>Sauzar Health Foundation was established by our Founding Director Dr. A. A. Sauzar in the year 2018 (Ideas and Paper works) and later developed to what you are seeing before you in May 2019. The foundation is located in Jalingo, Taraba State of Nigeria with ten (10) different coordinators (branches) in ten different states within the country. The foundation reached beyond Nigeria as it ha strong service delivery online through the use of social media platforms and website..</p>
+								<p>Sauzar Health Foundation was established by our Founding Director ABUSUFYAN AYYUB in the year 2018. The foundation is located in Jalingo, Taraba State of Nigeria with two (2) coordinators representing Southern and Northern part of the country. The foundation reached beyond Nigeria as it has strong service delivery online through the use of social media platforms and website.</p>
 						      </div>
 						    </div>
 						  </div>
@@ -507,30 +522,13 @@
 							</div>
 						</div>
 					</div>
-					
-					<div class="col-sm-3 col-md-3">
-						<div class="rs-team-1">
-							<div class="media"><img src=" {{ asset('frontend/images/profiles/tata.JPG') }} " alt=""></div>
-							<div class="body">
-								<div class="title">MUSTAPHA MUHAMMAD</div>
-								<div class="position">Communication and Dissemination Manager/Coordinator </div>
-								<ul class="social-icon">
-									<li><a href="www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
-									<li><a href="www.twitter.com/"><span class="fa fa-twitter"></span></a></li>
-									<li><a href="www.linkedin.com/"><span class="fa fa-google-plus"></span></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					
-
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- EVENTS -->
-	<div class="section" data-background=" {{ asset('frontend/images/slider/team-front.jpg') }} ">
+	<div class="section" data-background=" # ">
 		<div class="content-wrap">
 			<div class="container">
 				<div class="row">

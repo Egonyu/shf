@@ -2,7 +2,7 @@
 
 @section('content')
 	<!-- BANNER -->
-	<div class="section banner-page" data-background="images/dummy-img-1920x300.jpg">
+	<div class="section banner-page" data-background="{{ asset('frontend/images/site/sauzar-presentation.jpg') }}">
 		<div class="content-wrap pos-relative">
 			<div class="d-flex justify-content-center bd-highlight mb-3">
 				<div class="title-page">About Us</div>
@@ -29,8 +29,7 @@
 							Sauzar <span>Health</span> Foundation
 						</h2>
 
-						<p>Sauzar Health Foundation was established by our Founding Director ABUSUFYAN AYYUB in the year 2018. The foundation is located in Jalingo, Taraba State of Nigeria with ten (10) different coordinators (branches) in ten different states within the country. </p>
-						<p>The foundation reached beyond Nigeria as it ha strong service delivery online through the use of social media platforms and website.</p>
+						<p>Sauzar Health Foundation was established by our Founding Director ABUSUFYAN AYYUB in the year 2018. The foundation is located in Jalingo, Taraba State of Nigeria with two (2) coordinators representing Southern and Northern part of the country. The foundation reached beyond Nigeria as it has strong service delivery online through the use of social media platforms and website.</p>
 						<div class="spacer-30"></div>
 						<a href=" {{ url('/our-team') }} " class="btn btn-primary">MEET OUR TEAMS</a>
 						<div class="spacer-30"></div>
@@ -39,7 +38,7 @@
 
 					<div class="col-sm-6 col-md-6">
 						
-						<img src="{{ asset('frontend/images/slider/solar-energy.jpg') }}" alt="" class="img-fluid img-border">
+						<img src="{{ asset('frontend/images/site/group.jpg') }}" alt="" class="img-fluid img-border">
 
 					</div>
 					
@@ -68,7 +67,7 @@
 								<i class="fa fa-users"></i>
 							</div>
 							<div class="body-content">
-								<h2>1,825</h2>
+								<h2>29</h2>
 								<p class="uk18">Our Team</p>
 							</div>
 						</div>
@@ -81,7 +80,7 @@
 							</div>
 							<div class="body-content">
 								<h2>37</h2>
-								<p class="uk18">Awards</p>
+								<p class="uk18">Programs</p>
 							</div>
 						</div>
 					</div>
@@ -141,7 +140,8 @@
 					</div>
 
 					<div class="col-sm-6 col-md-6">
-						<p>Sauzar Health Foundation Abbreviated SHF is a for and not for profit Organization aiming at advocacy, education, sensitizing, and empowering for better health, creating livelihood, maintaining, preserving and protecting a healthy living environment.</p>
+						<p>Sauzar Health Foundation Abbreviated SHF is non governmental
+							Organization aiming at advocacy, education, sensitizing, and empowering for better health, reating livelihood, maintaining, preserving and protecting a healthy living environment.<</p>
 						<div class="embed-responsive embed-responsive-16by9">
 						  <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/vNDrLjOmUY4?autoplay=0&loop=0&showinfo=0&theme=dark&color=red&controls=1&modestbranding=0&start=0&fs=1&iv_load_policy=1"></iframe>
 
@@ -197,7 +197,7 @@
 						    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 						      <div class="card-body">
 						        
-								<p>Sauzar Health Foundation was established by our Founding Director Dr. A. A. Sauzar in the year 2018 (Ideas and Paper works) and later developed to what you are seeing before you in May 2019. The foundation is located in Jalingo, Taraba State of Nigeria with ten (10) different coordinators (branches) in ten different states within the country. The foundation reached beyond Nigeria as it ha strong service delivery online through the use of social media platforms and website..</p>
+								<p>Sauzar Health Foundation was established by our Founding Director Dr. A. A. Sauzar in the year 2018 (Ideas and Paper works) and later developed to what you are seeing before you in May 2019. The foundation is located in Jalingo, Taraba State of Nigeria with two (2) coordinators representing Southern and Northern part of the country. The foundation reached beyond Nigeria as it has strong service delivery online through the use of social media platforms and website</p>
 						      </div>
 						    </div>
 						  </div>

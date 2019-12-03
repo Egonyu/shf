@@ -2,10 +2,10 @@
 
 @section('content')
 	<!-- BANNER -->
-	<div class="section banner-page" data-background="{{ asset('frontend/images/slider/solar-energy.jpg') }}">
+	<div class="section banner-page" data-background="{{ asset('frontend/images/site/group.jpg') }}">
 		<div class="content-wrap pos-relative">
 			<div class="d-flex justify-content-center bd-highlight mb-3">
-				<div class="title-page">Contact</div>
+				<div class="title-page">Reach Us On</div>
 			</div>
 			<div class="d-flex justify-content-center bd-highlight mb-3">
 			    <nav aria-label="breadcrumb">

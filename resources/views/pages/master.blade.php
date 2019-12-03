@@ -62,7 +62,7 @@
                                 <h3>Join your hand with us for a better life and beautiful future.</h3>
                             </div>
                             <div class="body-action">
-                                <a href="#" class="btn btn-secondary">DONATE NOW</a>
+                                <a href="{{ url('contact') }}" class="btn btn-secondary">DONATE NOW</a>
                             </div>
                         </div>
                     </div>

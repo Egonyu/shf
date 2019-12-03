@@ -26,6 +26,11 @@ class HomeController extends Controller
         return view('pages.home.index');
     }
 
+    public function ourTeam()
+    {
+        return view('pages.team.ourteam');
+    }
+
     public function search(Request $request)
     {
         $key = trim($request->get('q'));
