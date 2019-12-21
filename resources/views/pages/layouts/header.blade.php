@@ -23,7 +23,7 @@
 						        </a>
 			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">ABOUT US</a>
-	          						<a class="dropdown-item" href=" {{ route('ourteam') }} ">OERATIONAL POLICY</a>
+	          						<a class="dropdown-item" href=" {{ asset('files/OperationalPolicy.pdf') }} ">OERATIONAL POLICY</a>
 			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">CONSTITUTION</a>
 	          						<a class="dropdown-item" href=" {{ route('ourTeam') }} ">OUR TEAM</a>
 							    </div>
@@ -39,6 +39,7 @@
 	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">POLYTHENE FREE ENVIRONMENT</a>
 	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">EMPOWERMENT</a>
 	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">GARBAGE RECYCLING</a>
+	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">DRUG ABUSE ENLIGHTMENT PROGRAMMES</a>
 							    </div>
 							</li>
 			                <li class="nav-item">
@@ -57,7 +58,7 @@
 						          CAREER
 						        </a>
 			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			                    	<a class="dropdown-item" href=" {{ asset('files/shfVolunteerApplication.pdf') }} " target="_blank">VOLUNTARY</a>
+			                    	<a class="dropdown-item" href=" {{ asset('files/shfVolunteerApplication.pdf') }} " target="_blank">VOLUNTEER</a>
 	          						<a class="dropdown-item" href=" {{ asset('files/applicationEmploymentForm_3.doc') }} " target="_blank">EMPLOYMENT</a>
 							    </div>
 			                </li>
