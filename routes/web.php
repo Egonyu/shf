@@ -35,7 +35,11 @@ Route::get('/contact', function (){
 });
 
 Route::get('/youthempowerment', 'ShfPages@youthempowerment')->name('youthempowerment');
+<<<<<<< HEAD
 Route::get('/career', 'ShfPages@career')->name('career');
+=======
+Route::get('/ourTeam', 'ShfPages@ourTeam')->name('ourTeam');
+>>>>>>> e7faea39102dfc1a5f90e1c53ab4a938fcee1504
 
 
 
