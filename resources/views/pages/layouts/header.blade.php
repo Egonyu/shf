@@ -22,13 +22,10 @@
 						          ABOUT
 						        </a>
 			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-<<<<<<< HEAD
 			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">ABOUT US</a>
-	          						<a class="dropdown-item" href=" {{ route('ourteam') }} ">OUR TEAM</a>
-=======
-			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">About Us</a>
-	          						<a class="dropdown-item" href=" {{ route('ourTeam') }} ">Our Team</a>
->>>>>>> e7faea39102dfc1a5f90e1c53ab4a938fcee1504
+	          						<a class="dropdown-item" href=" {{ route('ourteam') }} ">OERATIONAL POLICY</a>
+			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">CONSTITUTION</a>
+	          						<a class="dropdown-item" href=" {{ route('ourTeam') }} ">OUR TEAM</a>
 							    </div>
 			                </li>
 			                <li class="nav-item dropdown">
@@ -55,9 +52,16 @@
 			                    <a class="nav-link" href=" {{ url('/blog') }} ">BLOG</a>
 							</li>
 							
-							<li class="nav-item">
-			                    <a class="nav-link" href=" {{ url('/career') }} ">CAREERS</a>
+							<li class="nav-item dropdown">
+			                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						          CAREER
+						        </a>
+			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">VOLUNTARY</a>
+	          						<a class="dropdown-item" href=" {{ route('ourteam') }} ">EMPLOYMENT</a>
+							    </div>
 			                </li>
+			                
 			                <li class="nav-item">
 			                    <a class="nav-link" href=" {{ url('/contact') }} ">CONTACT US</a>
 			                </li>
