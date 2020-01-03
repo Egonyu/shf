@@ -18,6 +18,10 @@
 Route::get('/', ['uses' => 'HomeController@index', 'as' => 'index']);
 Route::get('/our-team', ['uses' => 'HomeController@ourTeam', 'as' => 'ourteam']);
 
+// contact us
+Route::get('contact-us', 'ContactUSController@contactUS');
+Route::post('contact-us', ['as'=>'pages.contact.store','uses'=>'ContactUSController@contactSaveData']);
+
 Route::get('/about', function (){
 	return view('pages.about');
 });
