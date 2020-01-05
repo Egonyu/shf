@@ -4,7 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactSendMail;
+use App\Http\Requests\ContactFormRequest;
 use App\ContactUS;
+// use App\Contact;
 
 class ContactUsController extends Controller
 {
@@ -13,7 +17,7 @@ class ContactUsController extends Controller
     *
     * @return \Illuminate\Http\Response
     */
-   public function contactUS()
+   public function contactUs()
    {
        return view('pages.contact.contact');
    }
@@ -25,26 +29,24 @@ class ContactUsController extends Controller
     */
    public function contactSaveData(Request $request)
    {
-       $this->validate($request, [
-        'name' => 'required',
-        'email' => 'required|email',
-		'subject'=>'required',
-        'message' => 'required'
-        ]);
+    //    $contact = [];
+    //    $contact['name'] = $request->get('name');
+    //    $contact['email'] = $request->get('email');
+    //    $contact['subject'] = $request->get('subject');
+    //    $contact['message'] = $request->get('message');
 
-       ContactUS::create($request->all());
+       $contact = new ContactUS();
+        $contact->name = $request->name;
+        $contact->number = $request->phone;
+        $contact->email = $request->email;
+        $contact->message = $request->message;
+        // $contact->save();
 
-       \Mail::send('emails.contactus',
-	       array(
-	           'name' => $request->get('name'),
-	           'email' => $request->get('email'),
-			   'subject' => $request->get('subject'),
-	           'user_message' => $request->get('message')
-	       ), function($message) use ($request)
-	   {
-	      $message->from('onlineinterviewquestions@gmail.com');
-	      $message->to('daniels123kidegonyu@gmail.com', 'Admin')->subject($request->get('subject'));
-	   });
+       Mail::send(new ContactSendMail($request));
+
+    //    Mail::to($contact['email'])->send(new ContactSendMail($contact));
+       
+       flash('Your message has been sent!')->success();
  
        return back()->with('success', 'Thanks for contacting us!');
    }
