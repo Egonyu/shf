@@ -38,6 +38,8 @@ Route::get('/contact', function (){
 	return view('pages.contact.contact');
 });
 
+Route::resource('careers', 'CareersController');
+
 Route::get('/youthempowerment', 'ShfPages@youthempowerment')->name('youthempowerment');
 
 Route::get('/career', 'ShfPages@career')->name('career');
@@ -102,3 +104,4 @@ Route::resource('comment', 'CommentController', ['only' => ['store', 'destroy', 
  * must last
  */
 Route::get('/{name}', ['uses' => 'PageController@show', 'as' => 'page.show']);
+
