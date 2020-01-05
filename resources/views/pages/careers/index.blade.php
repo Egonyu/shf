@@ -9,31 +9,41 @@
                         <thead>
                             <tr>
                             <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">Names</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">City</th>
+                            <th scope="col">State</th>
+                            <th scope="col">Zip</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">Position</th>
+                            <th scope="col">Employer</th>
+                            <th scope="col">Talent</th>
+                            <th scope="col">Field</th>
+                            <th scope="col">Disabilit(S)</th>
+                            <th scope="col">Emergency Contact</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
-                            </tr>
-                        </tbody>
+                        @foreach ($volunteers as $volunteer)
+                            <tbody style="font-size:12px">
+                                <tr>
+                                <th scope="row"> {{$volunteer->id}} </th>
+                                <td> {{$volunteer->names}} </td>
+                                <td> {{$volunteer->address}} </td>
+                                <td> {{$volunteer->email}} </td>
+                                <td> {{$volunteer->city}} </td>
+                                <td> {{$volunteer->state}} </td>
+                                <td> {{$volunteer->zip}} </td>
+                                <td> {{$volunteer->phone}} </td>
+                                <td> {{$volunteer->position}} </td>
+                                <td> {{$volunteer->employer}} </td>
+                                <td> {{$volunteer->special_talent}} </td>
+                                <td> {{$volunteer->volunteering_field}} </td>
+                                <td> {{$volunteer->physical_limitations}} </td>
+                                <td> {{$volunteer->emgerncy_contact}} </td>
+                                </tr>
+                            </tbody>
+                        @endforeach
                     </table>
                 </div>
             </div>

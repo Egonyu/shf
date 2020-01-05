@@ -15,7 +15,8 @@ class CareersController extends Controller
      */
     public function index()
     {
-        return view('pages.careers.index');
+        $volunteers = Career::all();
+        return view('pages.careers.index', compact('volunteers'));
     }
 
     /**
