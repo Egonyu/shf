@@ -52,21 +52,6 @@ class CareersController extends Controller
             'physical_limitations' => 'required',
             'emergency_contact' => 'required',
         ]);
-        // $careers = new Career($request, [
-        //     $careers->names = $request->names,
-        //     $careers->address = $request->address,
-        //     $careers->city = $request->city,
-        //     $careers->state = $request->state,
-        //     $careers->zip = $request->zip,
-        //     $careers->phone = $request->phone,
-        //     $careers->email = $request->email,
-        //     $careers->employer = $request->employer,
-        //     $careers->position = $request->position,
-        //     $careers->special_talent = $request->special_talent,
-        //     $careers->volunteering_field = $request->volunteering_field,
-        //     $careers->physical_limitations = $request->physical_limitations,
-        //     $careers->emergency_contact = $request->emergency_contact,
-        // ]);
 
         Career::create($request->all());
 
