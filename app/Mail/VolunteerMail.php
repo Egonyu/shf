@@ -7,7 +7,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class ContactMail extends Mailable
+class VolunteerMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -17,7 +17,7 @@ class ContactMail extends Mailable
      * @return void
      */
     public $data;
-
+    
     public function __construct($data)
     {
         $this->data = $data;
@@ -30,6 +30,6 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contact.contact-form');
+        return $this->markdown('email.volunteer.volunteer-form');
     }
 }

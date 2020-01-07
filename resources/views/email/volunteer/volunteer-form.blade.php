@@ -3,7 +3,6 @@
 
 <strong>Name</strong> {{$data['name']}}
 <strong>Email</strong> {{$data['email']}}
-<strong>Subject</strong> {{$data['subject']}}
 
-<strong>Message</strong> {{$data['message']}}
+<strong>Volunteer Section</strong> {{$data['areaofinterest']}}
 @endcomponent
