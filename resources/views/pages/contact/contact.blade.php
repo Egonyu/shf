@@ -84,12 +84,12 @@
 		                            {{ session('warning') }}
 		                        </div>
 		                    @endif
-							<form method="post" action="{{ route('pages.contact.store') }}" data-toggle="validator" novalidate="true">
+							<form method="post" action="/contact" data-toggle="validator" novalidate="true">
 								{{ csrf_field() }}
 								<div class="row">
 									<div class="col-sm-6 col-md-6">
 										<div class="form-group {{ $errors->has('name') ? ' has-error' : '' }}">
-											<input type="text" class="form-control" id="p_name" placeholder="Enter Name" required="">
+											<input type="text" name="name" class="form-control" id="p_name" placeholder="Enter Name" required="">
 											@if ($errors->has('name'))
 												<span class="help-block">
 													<strong>{{ $errors->first('name') }}</strong>
@@ -100,7 +100,7 @@
 									</div>
 									<div class="col-sm-6 col-md-6">
 										<div class="form-group {{ $errors->has('email') ? ' has-error' : '' }}">
-											<input type="email" class="form-control" id="p_email" placeholder="Enter Email" required>
+											<input type="email" name="email" class="form-control" id="p_email" placeholder="Enter Email" required>
 											@if ($errors->has('email'))
 												<span class="help-block">
 													<strong>{{ $errors->first('email') }}</strong>
@@ -111,7 +111,7 @@
 									</div>
 									<div class="col-sm-6 col-md-6">
 										<div class="form-group {{ $errors->has('Subject') ? ' has-error' : '' }}">
-											<input type="text" class="form-control" id="p_subject" placeholder="Subject" required>
+											<input type="text" name="subject" class="form-control" id="p_subject" placeholder="Subject" required>
 											@if ($errors->has('subject'))
 												<span class="help-block">
 													<strong>{{ $errors->first('subject') }}</strong>
@@ -122,7 +122,7 @@
 									</div>
 								</div>
 								<div class="form-group {{ $errors->has('message') ? ' has-error' : '' }}">
-									 <textarea id="p_message" class="form-control" rows="6" placeholder="Enter Your Message" required></textarea>
+									 <textarea id="p_message" name="message" class="form-control" rows="6" placeholder="Enter Your Message" required></textarea>
 									@if ($errors->has('message'))
 										<span class="help-block">
 											<strong>{{ $errors->first('message') }}</strong>

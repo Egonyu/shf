@@ -18,10 +18,6 @@
 Route::get('/', ['uses' => 'HomeController@index', 'as' => 'index']);
 Route::get('/our-team', ['uses' => 'HomeController@ourTeam', 'as' => 'ourteam']);
 
-// contact us
-Route::get('contact-us', 'ContactUSController@contactUS');
-Route::post('contact-us', ['as'=>'pages.contact.store','uses'=>'ContactUSController@contactSaveData']);
-
 Route::get('/about', function (){
 	return view('pages.about');
 });
@@ -34,9 +30,8 @@ Route::get('/gallery', function (){
 	return view('pages.gallery.gallery');
 });
 
-Route::get('/contact', function (){
-	return view('pages.contact.contact');
-});
+Route::get('/contact', 'ContactFormsController@create');
+Route::post('/contact', 'ContactFormsController@store');
 
 Route::get('/youthempowerment', 'ShfPages@youthempowerment')->name('youthempowerment');
 
