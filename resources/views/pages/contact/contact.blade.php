@@ -74,44 +74,69 @@
 						<div class="margin-bottom-50"></div>
 
 						<div class="content">
-							<form action="#" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true">
+							@if (session('status'))
+		                        <div class="alert alert-success">
+		                            {{ session('status') }}
+		                        </div>
+		                    @endif
+		                    @if (session('warning'))
+		                        <div class="alert alert-warning">
+		                            {{ session('warning') }}
+		                        </div>
+		                    @endif
+							<form method="post" action="/contact" data-toggle="validator" novalidate="true">
+								{{ csrf_field() }}
 								<div class="row">
 									<div class="col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" id="p_name" placeholder="Enter Name" required="">
+										<div class="form-group {{ $errors->has('name') ? ' has-error' : '' }}">
+											<input type="text" name="name" class="form-control" id="p_name" placeholder="Enter Name" required="">
+											@if ($errors->has('name'))
+												<span class="help-block">
+													<strong>{{ $errors->first('name') }}</strong>
+												</span>
+											@endif
 											<div class="help-block with-errors"></div>
 										</div>
 									</div>
 									<div class="col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="email" class="form-control" id="p_email" placeholder="Enter Email" required="">
+										<div class="form-group {{ $errors->has('email') ? ' has-error' : '' }}">
+											<input type="email" name="email" class="form-control" id="p_email" placeholder="Enter Email" required>
+											@if ($errors->has('email'))
+												<span class="help-block">
+													<strong>{{ $errors->first('email') }}</strong>
+												</span>
+									 		@endif
 											<div class="help-block with-errors"></div>
 										</div>
 									</div>
 									<div class="col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" id="p_subject" placeholder="Subject">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-									<div class="col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" id="p_phone" placeholder="Enter Phone Number">
+										<div class="form-group {{ $errors->has('Subject') ? ' has-error' : '' }}">
+											<input type="text" name="subject" class="form-control" id="p_subject" placeholder="Subject" required>
+											@if ($errors->has('subject'))
+												<span class="help-block">
+													<strong>{{ $errors->first('subject') }}</strong>
+												</span>
+									 		@endif
 											<div class="help-block with-errors"></div>
 										</div>
 									</div>
 								</div>
-								<div class="form-group">
-									 <textarea id="p_message" class="form-control" rows="6" placeholder="Enter Your Message"></textarea>
+								<div class="form-group {{ $errors->has('message') ? ' has-error' : '' }}">
+									 <textarea id="p_message" name="message" class="form-control" rows="6" placeholder="Enter Your Message" required></textarea>
+									@if ($errors->has('message'))
+										<span class="help-block">
+											<strong>{{ $errors->first('message') }}</strong>
+										</span>
+								    @endif
 									<div class="help-block with-errors"></div>
 								</div>
 								<div class="form-group">
 									<div id="success"></div>
-									<button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+									<button type="submit" class="btn btn-primary" value="Send Message" name="btnSubmit">SEND MESSAGE</button>
 								</div>
 							</form>
 							<div class="margin-bottom-50"></div>
-							<p><em>Note: Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em></p>
+							<p><em>We will get back to you as soon as possible</em></p>
 						 </div>
 					</div>
 
