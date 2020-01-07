@@ -19,8 +19,8 @@ Route::get('/', ['uses' => 'HomeController@index', 'as' => 'index']);
 Route::get('/our-team', ['uses' => 'HomeController@ourTeam', 'as' => 'ourteam']);
 
 // contact us
-Route::get('contact-us', 'ContactUsController@contactUs');
-Route::post('contact-us', ['as'=>'pages.contact.store','uses'=>'ContactUsController@contactSaveData']);
+Route::get('contact-us', 'ContactUSController@contactUS');
+Route::post('contact-us', ['as'=>'pages.contact.store','uses'=>'ContactUSController@contactSaveData']);
 
 Route::get('/about', function (){
 	return view('pages.about');
@@ -37,8 +37,6 @@ Route::get('/gallery', function (){
 Route::get('/contact', function (){
 	return view('pages.contact.contact');
 });
-
-Route::resource('careers', 'CareersController');
 
 Route::get('/youthempowerment', 'ShfPages@youthempowerment')->name('youthempowerment');
 
@@ -104,4 +102,3 @@ Route::resource('comment', 'CommentController', ['only' => ['store', 'destroy', 
  * must last
  */
 Route::get('/{name}', ['uses' => 'PageController@show', 'as' => 'page.show']);
-
