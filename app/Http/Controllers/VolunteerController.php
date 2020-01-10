@@ -18,22 +18,14 @@ class VolunteerController extends Controller
         $data = request()->validate([
             'name' => 'required',
             'email' => 'required|email',
-            'city' => 'required',
             'state' => 'required',
-            'zip' => 'required',
-            'phoneNo' => 'required',
-            'address' => 'required',
-            'employer' => 'required',
-            'position' => 'required',
-            'skills' => 'required',
-            'areaofinterest' => 'required',
-            'emergency_contact' => 'required',
-            'physical_limitation' => 'required',
+            'city' => 'required',
         ]);
-        
-        dd(request()->all());
-        // Mail::to('info@sauzarhealthfoundation.org')->send(new VolunteerMail($data));
 
-        // return redirect()->back()->with('status', 'Application Form Data Submitted');
+        Mail::to('info@sauzarhealthfoundation.org')
+        ->send(new VolunteerMail($data));
+
+        return redirect()->back()
+        ->with('status', 'Inquiry Sent, We will get back to you as soon as possible');
     }
 }

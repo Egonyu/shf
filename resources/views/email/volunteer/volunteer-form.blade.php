@@ -4,5 +4,5 @@
 <strong>Name</strong> {{$data['name']}}
 <strong>Email</strong> {{$data['email']}}
 
-<strong>Volunteer Section</strong> {{$data['areaofinterest']}}
+<strong>State</strong> {{$data['state']}}
 @endcomponent

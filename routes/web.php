@@ -33,7 +33,7 @@ Route::get('/gallery', function (){
 Route::get('/contact', 'ContactFormsController@create');
 Route::post('/contact', 'ContactFormsController@store');
 
-Route::get('/volunteer', 'VolunteerController@create');
+Route::get('/volunteer/create', 'VolunteerController@create');
 Route::post('/volunteer', 'VolunteerController@store')->name('volunteer.store');
 
 Route::get('/youthempowerment', 'ShfPages@youthempowerment')->name('youthempowerment');
