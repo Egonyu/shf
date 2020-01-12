@@ -58,7 +58,7 @@
 						          CAREER
 						        </a>
 			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			                    	<a class="dropdown-item" href=" {{ asset('files/shfVolunteerApplication.pdf') }} " target="_blank">VOLUNTEER</a>
+			                    	<a class="dropdown-item" href=" {{ route('volunteer.index') }} " target="_blank">VOLUNTEER</a>
 	          						<a class="dropdown-item" href=" {{ asset('files/applicationEmploymentForm_3.doc') }} " target="_blank">EMPLOYMENT</a>
 							    </div>
 			                </li>
