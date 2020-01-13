@@ -42,7 +42,7 @@
 		                            {{ session('warning') }}
 		                        </div>
 		                    @endif
-							<form method="post" action="{{ route('volunteer.store') }}" data-toggle="validator" novalidate="true">
+							{{-- <form method="post" action="{{ route('volunteer.store') }}" data-toggle="validator" novalidate="true">
 								{{ csrf_field() }}
 								<div class="row">
 									<div class="col-sm-6 col-md-6">
@@ -191,7 +191,8 @@
 									<div id="success"></div>
 									<button type="submit" class="btn btn-primary" value="Send Message" name="btnSubmit">SEND MESSAGE</button>
 								</div>
-							</form>
+							</form> --}}
+							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSead-jqoZblDpYQQwxhO1LeiiW2GIsDSZd6pDfIJ8JRqWG2TA/viewform?embedded=true" width="640" height="3367" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 							<div class="margin-bottom-50"></div>
 							<p><em>We will get back to you as soon as possible</em></p>
 						 </div>

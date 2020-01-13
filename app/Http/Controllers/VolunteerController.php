@@ -20,6 +20,7 @@ class VolunteerController extends Controller
             'email' => 'required|email',
             'state' => 'required',
             'city' => 'required',
+            'position' => 'required',
         ]);
 
         Mail::to('career@sauzarhealthfoundation.org')
