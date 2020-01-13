@@ -55,7 +55,7 @@
 								<i class="fa fa-file-text-o"></i>
 							</div>
 							<div class="body-content">
-								<h2>12,280</h2>
+								<h2>07</h2>
 								<p class="uk18">Complete</p>
 							</div>
 						</div>
@@ -79,7 +79,7 @@
 								<i class="fa fa-trophy"></i>
 							</div>
 							<div class="body-content">
-								<h2>37</h2>
+								<h2>09</h2>
 								<p class="uk18">Programs</p>
 							</div>
 						</div>
@@ -91,7 +91,7 @@
 								<i class="fa fa-male"></i>
 							</div>
 							<div class="body-content">
-								<h2>256,861</h2>
+								<h2>49</h2>
 								<p class="uk18">Volunteer</p>
 							</div>
 						</div>
@@ -110,14 +110,14 @@
 					<div class="col-sm-12 col-md-12">
 						<div class="cta-info">
 						<h1 class="section-heading light no-after">
-							<span>We Help Many</span> People
+							<span>We Help Many People</span> 
 						</h1>
-						<h3 class="color-primary">Want to Become a Volunteer</h3>
+						<a href="{{ route('volunteer.index') }}"><h3 class="color-primary">Want to Become a Volunteer</h3></a>
 
 						<div class="spacer-10"></div>
-						<p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis iste natus error sit .</p>
+						<p>Our organization encourages the participation of volunteers who support our mission. If you agree with our mission and are willing to be interviewed and trained in our procedures, we encourage you to complete this application. The information on this form will be kept confidential and will help us find the most satisfying and appropriate volunteer opportunity for you. click the button below to volunteer</p>
 
-						<a href="#" class="btn btn-light margin-btn">LEARN MORE</a> <a href="#" class="btn btn-primary margin-btn">JOIN US NOW</a>	
+						<a href="{{ route('ceo') }}" class="btn btn-light margin-btn">Read Director's Message</a> <a href="{{ route('volunteer.index') }}" class="btn btn-primary margin-btn">Become A Volunteer</a>	
 						</div>
 
 					</div>
@@ -282,23 +282,23 @@
 						<h2 class="section-heading center">
 							Our <span>Volunteers</span> Says
 						</h2>
-						<p class="subheading text-center">Lorem ipsum dolor sit amet, onsectetur adipiscing cons ectetur nulla. Sed at ullamcorper risus.</p>
+						<p class="subheading text-center">Don't take our word for it, hear from these people..</p>
 					</div>
 
 					<div class="col-sm-6 col-md-6">
 						<div class="testimonial-1">
 		              		<div class="media">
-	              				<img src="images/dummy-img-400x400.jpg" alt="" class="img-fluid">
+	              				<img src="{{('frontend/images/volunteers/nirere.jpg')}}" alt="" class="img-fluid">
 	              			</div>
 			              	<div class="body">
-			                	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-			                	<div class="title">John Doel</div>
-			                	<div class="company">Businessman</div>
+			                	<p>We are in a crisis; our actions have led to continuous destruction of our only planet. We have to achieve our set climate action goals and this will be done by individuals, governments, Civil Society, Corporations and Organizations. Am glad that Sauzar Health Foundation is part of chieving their objectives.</p>
+			                	<div class="title">NIRERE SADRACH</div>
+			                	<div class="company">CO-FOUNDER AND CORDINATOR FRIDAYS FOR FUTURE UGANDA, UGANDA</div>
 			              	</div>
 			            </div>
 					</div>
 
-					<div class="col-sm-6 col-md-6">
+					{{-- <div class="col-sm-6 col-md-6">
 						<div class="testimonial-1">
 		              		<div class="media">
 	              				<img src="images/dummy-img-400x400.jpg" alt="" class="img-fluid">
@@ -335,7 +335,7 @@
 			                	<div class="company">Freelance</div>
 			              	</div>
 			            </div>
-					</div>
+					</div> --}}
 
 				</div>
 			</div>

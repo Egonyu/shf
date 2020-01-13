@@ -2,68 +2,7 @@
 
 @section('content')
 	<!-- BANNER -->
-	<div id="oc-fullslider" class="banner owl-carousel" style="opacity: 34">
-        <div class="owl-slide">
-        	<div class="item">
-	            <img src=" {{ asset('frontend/images/slider/clean-water.jpg') }} " alt="Slider" >
-	            <div class="slider-pos">
-		            <div class="container">
-		            	<div class="wrap-caption center">
-			                <h1 class="caption-heading"><span>#POOR</span> WASTE MANAGEMENT</h1>
-			                <p>Waste management are the activities and actions required to manage waste from its inception to its final disposal. This includes the collection, transport, treatment and disposal of waste, together with monitoring and regulation of the waste management process.</p>
-			                <a href=" {{ url('/causes') }} " class="btn btn-light">LEARN MORE</a>
-			                <a href=" {{ url('/contact') }} " class="btn btn-primary">DONATE NOW</a>
-			            </div>  
-		            </div>  
-	            </div>  
-            </div>  
-        </div>
-
-        <div class="owl-slide">
-        	<div class="item">
-	            <img src=" {{ asset('frontend/images/slider/noplanetb.jpg') }} " alt="Slider" style="opacity: 3">
-	            <div class="slider-pos">
-		            <div class="container">
-		            	<div class="wrap-caption right">
-			                <h1 class="caption-heading"><span>#Promote</span> Renewable Energy</h1>
-			                <p>Renewable energy is energy that is collected from renewable resources, which are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, waves, and geothermal heat</p>
-			                <a href=" {{ url('/contact') }} " class="btn btn-primary">Support NOW</a>
-			            </div>  
-		            </div>  
-	            </div>  
-            </div>  
-        </div>
-
-        <div class="owl-slide">
-        	<div class="item">
-	            <img src=" {{ asset('frontend/images/slider/team-back.JPG') }} " alt="Slider" style="opacity: 3">
-	            <div class="slider-pos">
-		            <div class="container">
-		            	<div class="wrap-caption right">
-			                <h1 class="caption-heading"><span>#ECO</span> FRIENDLY COMPAIGN</h1>
-			                <p>Promote Solar Power: Eco Friendly Energy Consumption. Solar power is the form of renewable energy available for human actions apart from wind, tide, and hydroelectric energy.</p>
-			                <a href="#" class="btn btn-primary">DONATE NOW</a>
-			            </div>  
-		            </div>  
-	            </div>  
-            </div>  
-        </div>
-
-        <div class="owl-slide">
-        	<div class="item">
-	            <img src=" {{ asset('frontend/images/site/viewers.jpg') }} " alt="Slider" style="opacity: 3">
-	            <div class="slider-pos">
-		            <div class="container">
-		            	<div class="wrap-caption right">
-			                <h1 class="caption-heading"><span>#EDUCATION</span> PROGRAM</h1>
-			                <p>Promote Solar Power: Eco Friendly Energy Consumption. Solar power is the form of renewable energy available for human actions apart from wind, tide, and hydroelectric energy.</p>
-			                <a href="#" class="btn btn-primary">DONATE NOW</a>
-			            </div>  
-		            </div>  
-	            </div>  
-            </div>  
-        </div>
-    </div>
+	@include('pages.banner.slider')
 
 	<div class="clearfix"></div>
 	 
@@ -90,7 +29,7 @@
 		              		<div class="no">01</div>
 		              		<p class="subtitle">GARBAGE RECYCLING </p>
 		              		<h3 class="title">Join Us Now</h3>
-		              		<div class="text">One of our major leading compaigns is that as sauzar health foundation its priotized to mass sentize the publich about the dangers, devise creative ways around the problem in oder to meet our vison.
+		              		<div class="text">One of our major leading compaigns is that as sauzar health foundation its priotized to mass sentize the public about the dangers, devise creative ways around the problem in oder to meet our vison.
 		              		 </div>
 			            </div>
 			        </div>
@@ -115,7 +54,7 @@
 		              		<div class="no">03</div>
 		              		<p class="subtitle">POLYTHEN FREE ENVIRONMENT</p>
 		              		<h3 class="title">Get involved</h3>
-		              		<div class="text">With a wide range of activities that sauzar health foundation is engaed with from Teaching, Actioned tree planting, Mass sentization, one or more events take place every now and them, look out our latest events.</div>
+		              		<div class="text">With a wide range of activities that sauzar health foundation is engaged with from Teaching, Actioned tree planting, Mass sentization, one or more events take place every now and them, look out our latest events.</div>
 			            </div>
 			        </div>
 
@@ -183,7 +122,7 @@
 						<h2 class="section-heading center">
 							Recent <span>Cause</span>
 						</h2>
-						<p class="subheading text-center">We started up this movement to focus on the leading problems Africa face as a continent with fast industrial growth rates and where the AmericanEuropeanAsian industry dumps its products.</p>
+						<p class="subheading text-center">We started up this movement to focus on the leading problems Africa face as a continent with fast industrial growth rates.</p>
 					</div>
 					<div class="clearfix"></div>
 					<!-- Item 1 -->
@@ -301,7 +240,7 @@
 						    </div>
 						    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 						      <div class="card-body">
-						        To restore, preserve, protect and make the world a better place for us and the future generation by inculcating into the general public a sense of respect for the environment through proper waste management practices for sustainable health.
+						        To restore, preserve, protect and make the world a better place for us and the future generation by inculcating into the general public a sense of respect for the environment through proper waste management practices for sustainable health and development.
 						      </div>
 						    </div>
 						  </div>
@@ -366,7 +305,7 @@
 						    </div>
 						    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
 						      <div class="card-body">
-								<p>Our core function is to direct and coordinate health and environment through collaborations with other organization whose aim is for the betterment of all. SHF is willing to partner with but not limited to, Universities, Polytechnics, Colleges, schools, research institutions, restaurants etc.</p>
+								<p>Our core function is to direct and coordinate health and environment through collaborations with other organization whose aim is for the betterment of all. SHF is partnering with Government, Ministries, Institutions of Learning, Research Institutes, Business Centres etc whose aims merge with our mission</p>
 						      </div>
 						    </div>
 						  </div>
@@ -382,7 +321,7 @@
 						    </div>
 						    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
 						      <div class="card-body">
-								<p>SHF is a product/service based organization with a primary role of empowering for generations, making the environment a better place for the survival of the survivalist. We provide alternative and cheap source of fuel for cooking through garbage recycling, offering services (Seminars, workshops, community outreach, sanitations, Advocacy etc.) and empowering inclusive community health programmes.</p>
+								<p>SHF is a product/service based organization with a primary role of empowering for generations, making the environment a better place for the survival of the survivalist. We provide alternative and cheap source of fuel for cooking through garbage recycling, offering services (Seminars, workshops, community outreach, sanitations, Advocacy etc.) and empowering inclusive community health programmes and development.</p>
 						      </div>
 						    </div>
 						  </div>
@@ -460,23 +399,8 @@
 
 					<div class="col-sm-12 col-md-12">
 						<h2 class="section-heading">
-							Meet <span>Our</span> Volunteer
+							<span>Founding Director's Message</span> 
 						</h2>
-					</div>
-					<div class="clearfix"></div>
-					<div class="col-sm-3 col-md-3">
-						<div class="rs-team-1">
-							<div class="media"><img src=" {{ asset('frontend/images/profiles/cbt.jpg') }} " alt=""></div>
-							<div class="body">
-								<div class="title">ABUBAKAR BILA MUHAMMAD</div>
-								<div class="position">Chairman Board Of Trustee</div>
-								<ul class="social-icon">
-									<li><a href="www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
-									<li><a href="www.twitter.com/"><span class="fa fa-twitter"></span></a></li>
-									<li><a href="www.linkedin.com/"><span class="fa fa-google-plus"></span></a></li>
-								</ul>
-							</div>
-						</div>
 					</div>
 					<div class="col-sm-3 col-md-3">
 						<div class="rs-team-1">
@@ -493,24 +417,22 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-9 col-md-9">
 						<div class="rs-team-1">
-							<div class="media"><img src=" {{ asset('frontend/images/profiles/drull.jpg') }} " alt=""></div>
+							
 							<div class="body">
-								<div class="title">DRUSILA AHMED TAURE</div>
-								<div class="position">Vice President</div>
-								<ul class="social-icon">
-									<li><a href="www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
-									<li><a href="www.twitter.com/"><span class="fa fa-twitter"></span></a></li>
-									<li><a href="www.linkedin.com/"><span class="fa fa-google-plus"></span></a></li>
-								</ul>
+								<p class="justify-content-center" style="justify">Sauzar Health Foundation bases its activities on 7 aspects: Education, Empowerment, Pollution, Sanitation, Polythene free environment, and recycling. Some of these different aspects compliment each other in destroying our environment, but positively influencing one of these aspects can positively affect the other aspects. 
+								Illiteracy is a major concern as it is a backbone problem for Africans, the human resource is significantly degraded by lack of knowledge and skill. 38% of Nigerians are illiterates and probably uneducated. The lack of education being entirely different from illiteracy proves a more danger to the improvement of the society health-wise as it means that the populace has no understanding of how to improve their health, nor how the health of the community is collectively hampered by the hazardous nature of their own activities. Yet they neither have the knowledge nor skills to make the environment safer. </p>
+								<p class="justify-content-center">Sauzar Health Foundation begins with the local communities, Universities, within Nigeria and Uganda of East Africa and we look forward to expand our programmes to all African Countries. The individuals who partake in the success of the programmes of the foundation shall have all contributed to the progress of all Africans. Bringing true meaning to the spirit of Ubuntu.  This task does not belong to the Sauzar Health Foundation alone, it belongs to everyone. And we all have a role to play in the rebuilding of our communities and our dear Continent.  </p>
+								<button><a href="{{ route('ceo') }}">Read More</a></button>
+								
 							</div>
 						</div>
 					</div>
 
 					
 
-					<div class="col-sm-3 col-md-3">
+					{{-- <div class="col-sm-3 col-md-3">
 						<div class="promo-ads" data-background=" {{ ('frontend/images/20220.jpg') }} ">
 							<div class="content font__color-white">
 								<i class="fa fa-bullhorn"></i>
@@ -521,14 +443,14 @@
 								<a href=" {{url('/contact')}} " class="btn btn-secondary">JOIN US NOW</a>
 							</div>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<!-- EVENTS -->
-	<div class="section" data-background=" # ">
+	<div class="section" data-background=" # " style="background-color:black">
 		<div class="content-wrap">
 			<div class="container">
 				<div class="row">
@@ -536,7 +458,7 @@
 
 						<div class="event-pin">
 							<h1 class="color-white">#Events</h1>
-							<h3><a href="#">Meet Ocu Deyen</a></h3>
+							<h3><a href="#">Consultative Forum</a></h3>
 							<p>Sad ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent.</p>
 							<a href="#" class="read-more">Read More...</a>
 							<div class="more-event"><a href="#"><i class="fa fa-long-arrow-left"></i></a></div>
@@ -557,10 +479,10 @@
 									<div class="month">OCT</div>
 								</div>
 								<div class="body-content">
-									<h4><a href="events-detail.html">Sauzar Health Foundation Workshop</a></h4>
+									<h4><a href="events-detail.html">Ggaba Community Cleaning</a></h4>
 									<div class="meta">
 										<span class="date"><i class="fa fa-clock-o"></i>  09:00 am - 4:00 pm</span>
-										<span class="location"><i class="fa fa-map-marker"></i> Kampala, Kansanga</span>
+										<span class="location"><i class="fa fa-map-marker"></i> Kampala, Ggaba Market</span>
 									</div>
 									<p>The primary activity in this event is to expand the boarders of our movenment to reach the public ear, where the theme is "Eco frienfly environment, Sustainable habitable water bodies of Lake vicotia for greater good of Uganda". </p>
 								</div>
@@ -571,10 +493,10 @@
 									<div class="month">JAN</div>
 								</div>
 								<div class="body-content">
-									<h4><a href="events-detail.html">Our volunteer</a></h4>
+									<h4><a href="events-detail.html">Countering Violent Extremisim</a></h4>
 									<div class="meta">
 										<span class="date"><i class="fa fa-clock-o"></i>  12:00 am - 5:00 pm</span>
-										<span class="location"><i class="fa fa-map-marker"></i> Nigeria</span>
+										<span class="location"><i class="fa fa-map-marker"></i> <a href="www.iuiu.ac.ug">IUIU</a></span>
 									</div>
 									<p>General cleanup of the Mulago Children's Facility </p>
 								</div>

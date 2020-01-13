@@ -23,14 +23,13 @@
 						        </a>
 			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">ABOUT US</a>
-	          						<a class="dropdown-item" href=" {{ asset('files/OperationalPolicy.pdf') }} ">OERATIONAL POLICY</a>
-			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">CONSTITUTION</a>
 	          						<a class="dropdown-item" href=" {{ route('ourTeam') }} ">OUR TEAM</a>
+			                    	<a class="dropdown-item" href=" {{ route('ceo') }} ">CEO'S MESSAGE</a>
 							    </div>
 			                </li>
 			                <li class="nav-item dropdown">
 			                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						          PROGRAMS
+						          PROGRAMMES
 						        </a>
 			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">EDUCATION</a>
@@ -42,9 +41,6 @@
 	          						<a class="dropdown-item" href=" {{ url('/our-team') }} ">DRUG ABUSE ENLIGHTMENT PROGRAMMES</a>
 							    </div>
 							</li>
-			                <li class="nav-item">
-			                    <a class="nav-link" href=" {{ url('/causes') }} ">CAMPAIGNS</a>
-			                </li>
 			                
 			                <li class="nav-item">
 			                    <a class="nav-link" href=" {{ url('/gallery') }} ">GALLERY</a>
@@ -59,7 +55,7 @@
 						        </a>
 			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			                    	<a class="dropdown-item" href=" {{ asset('files/shfVolunteerApplication.pdf') }} " target="_blank">VOLUNTEER</a>
-	          						<a class="dropdown-item" href=" {{ asset('files/applicationEmploymentForm_3.doc') }} " target="_blank">EMPLOYMENT</a>
+	          						<a class="dropdown-item" href=" {{ route('jobs') }} " target="_blank">EMPLOYMENT</a>
 							    </div>
 			                </li>
 			                

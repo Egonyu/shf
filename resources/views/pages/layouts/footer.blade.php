@@ -60,7 +60,7 @@
 									<div class="info-icon">
 										<span class="fa fa-envelope"></span>
 									</div>
-									<div class="info-text">info@shf.com</div>
+									<div class="info-text">info@sauzarhealthfoundation.org</div>
 								</li>
 								<li>
 									<div class="info-icon">
@@ -95,7 +95,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-12">
-						<p class="ftex">Copyright 2019 &copy; <span class="color-primary">Sauzar Health Foundation</span>. Designed by <span class="color-primary">Olago.</span></p> 
+						<p class="ftex">Copyright 2019 &copy; <span class="color-primary">Sauzar Health Foundation</span>.</p> 
 					</div>
 				</div>
 			</div>

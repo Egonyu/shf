@@ -22,7 +22,7 @@ class VolunteerController extends Controller
             'city' => 'required',
         ]);
 
-        Mail::to('info@sauzarhealthfoundation.org')
+        Mail::to('career@sauzarhealthfoundation.org')
         ->send(new VolunteerMail($data));
 
         return redirect()->back()

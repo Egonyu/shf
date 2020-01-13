@@ -5,7 +5,7 @@
 <div class="section banner-page" data-background=" {{ asset('frontend/images/site/conf.jpg') }} ">
 	<div class="content-wrap pos-relative">
 			<div class="d-flex justify-content-center bd-highlight mb-3">
-				<div class="title-page">Team Members</div>
+				<div class="title-page">Management Team</div>
 			</div>
 			<div class="d-flex justify-content-center bd-highlight mb-3">
 			    <nav aria-label="breadcrumb">
@@ -23,79 +23,78 @@
 		<div class="content-wrap">
 			<div class="container">
 				<div class="row">
-
-					<div class="col-sm-3 col-md-3">
-						<div class="rs-team-1">
-							<div class="media"><img src="{{ asset('frontend/images/profiles/cbt.jpg') }}" alt=""></div>
-							<div class="body">
-								<div class="title">ABUBAKAR BILA MUHAMMAD</div>
-								<div class="position">Chairman Board Of Trustee</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-4 col-md-4">
 						<div class="rs-team-1">
 							<div class="media"><img src=" {{ asset('frontend/images/profiles/abu.png') }} " alt=""></div>
 							<div class="body">
-								<div class="title">Abusufyan Ayyub</div>
+								<div class="title">ABUSUFYAN AYYUB</div>
 								<div class="position">CEO & Founder</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-4 col-md-4">
 						<div class="rs-team-1">
-							<div class="media"><img src="{{ asset('frontend/images/profiles/drull.jpg') }} "" alt=""></div>
+							<div class="media"><img src="{{ asset('frontend/ourteam/faskari.jpg') }}" alt=""></div>
 							<div class="body">
-								<div class="title">Ahmed Drusila Taure</div>
+								<div class="title">MUBARAK ALHASSAN FASKARI</div>
+								<div class="position">Direcctor Finance</div>
+							</div>
+						</div>
+					</div>
+
+					
+					<div class="col-sm-4 col-md-4">
+						<div class="rs-team-1">
+							<div class="media"><img src="{{ asset('frontend/ourteam/Bila.jpg') }}" alt=""></div>
+							<div class="body">
+								<div class="title">ABUBAKAR BILA MUHAMMAD</div>
+								<div class="position">Chairman Advisory Committee</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-md-4">
+						<div class="rs-team-1">
+							<div class="media"><img src="{{ asset('frontend/ourteam/drucila.jpg') }} "" alt=""></div>
+							<div class="body">
+								<div class="title">AHMED DRUSILA TAURE</div>
 								<div class="position">Vice President</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
-						<div class="rs-team-1">
-							<div class="media"><img src="images/dummy-img-400x400.jpg" alt=""></div>
-							<div class="body">
-								<div class="title">Ibrahim Khalil</div>
-								<div class="position">Director Project Planning, Management & Implementation</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-4 col-md-4">
 						<div class="rs-team-1">
 							<div class="media"><img src=" {{ asset('frontend/images/profiles/tata.JPG') }} " alt=""></div>
 							<div class="body">
 								<div class="title">MUSTAPHA MUHAMMAD</div>
-								<div class="position">Norther Coordiantor, Nigeria</div>
+								<div class="position">Northern Coordiantor, Nigeria</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-4 col-md-4">
 						<div class="rs-team-1">
-							<div class="media"><img src="images/dummy-img-400x400.jpg" alt=""></div>
+							<div class="media"><img src="{{ asset('frontend/ourteam/ade.jpg') }}" alt=""></div>
 							<div class="body">
-								<div class="title">Adedeji AbdulHameed Adeolu</div>
+								<div class="title">ADEDEJI ABDULHAMEED ADEOLU</div>
 								<div class="position">Southern Coordinator, Nigeria</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-4 col-md-4">
 						<div class="rs-team-1">
-							<div class="media"><img src="images/dummy-img-400x400.jpg" alt=""></div>
+							<div class="media"><img src="{{ asset('frontend/ourteam/khalil.jpg') }}" alt=""></div>
 							<div class="body">
-								<div class="title">Mubarak Alhassan Faskari</div>
-								<div class="position">Public Relations Officer</div>
+								<div class="title">IBRAHIM MUHAMMAD</div>
+								<div class="position">Director Project Planning, Management and Implementation</div>
 							</div>
 						</div>
 					</div>
 
 				</div>
-
 				<div class="row">
 
 					<div class="cta-info">

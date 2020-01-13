@@ -20,7 +20,7 @@ Route::get('/our-team', ['uses' => 'HomeController@ourTeam', 'as' => 'ourteam'])
 
 Route::get('/about', function (){
 	return view('pages.about');
-});
+})->name('about');
 
 Route::get('/causes', function (){
 	return view('pages.causes.causes');
@@ -30,10 +30,18 @@ Route::get('/gallery', function (){
 	return view('pages.gallery.gallery');
 });
 
+Route::get('/ceo', function (){
+	return view('pages.ourTeam.ceo');
+})->name('ceo');
+
+Route::get('/career-oportunities', function (){
+	return view('pages.career.jobs');
+})->name('jobs');
+
 Route::get('/contact', 'ContactFormsController@create');
 Route::post('/contact', 'ContactFormsController@store');
 
-Route::get('/volunteer/create', 'VolunteerController@create');
+Route::get('/volunteer/create', 'VolunteerController@create')->name('volunteer.index');
 Route::post('/volunteer', 'VolunteerController@store')->name('volunteer.store');
 
 Route::get('/youthempowerment', 'ShfPages@youthempowerment')->name('youthempowerment');

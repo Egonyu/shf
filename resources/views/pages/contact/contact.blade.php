@@ -44,14 +44,14 @@
 							<div class="info-icon">
 								<i class="fa fa-map-marker"></i>
 							</div>
-							<div class="info-text">Behind Federal Science Technical College, Jalingo </div>
+							<div class="info-text">Jalingo, Taraba State, Nigeria</div>
 						</div>
 
 						<div class="rs-icon-info">
 							<div class="info-icon">
 								<i class="fa fa-envelope"></i>
 							</div>
-							<div class="info-text">info@sauzarhealthfoundation.com</div>
+							<div class="info-text">info@sauzarhealthfoundation.org</div>
 						</div>
 
 						<div class="rs-icon-info">
