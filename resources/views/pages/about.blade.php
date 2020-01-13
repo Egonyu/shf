@@ -298,7 +298,7 @@
 			            </div>
 					</div>
 
-					{{-- <div class="col-sm-6 col-md-6">
+					<div class="col-sm-6 col-md-6">
 						<div class="testimonial-1">
 		              		<div class="media">
 	              				<img src="images/dummy-img-400x400.jpg" alt="" class="img-fluid">
@@ -310,7 +310,7 @@
 			              	</div>
 			            </div>
 					</div>
-
+{{-- 
 					<div class="col-sm-6 col-md-6">
 						<div class="testimonial-1">
 		              		<div class="media">
