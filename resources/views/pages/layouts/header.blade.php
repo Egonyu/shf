@@ -24,6 +24,7 @@
 			                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			                    	<a class="dropdown-item" href=" {{ url('/about') }} ">ABOUT US</a>
 	          						<a class="dropdown-item" href=" {{ route('ourTeam') }} ">OUR TEAM</a>
+	          						<a class="dropdown-item" href=" {{ url('/chart') }} ">ORGANISATION CHART</a>
 			                    	<a class="dropdown-item" href=" {{ route('ceo') }} ">CEO'S MESSAGE</a>
 							    </div>
 			                </li>

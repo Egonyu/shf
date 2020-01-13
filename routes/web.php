@@ -26,6 +26,8 @@ Route::get('/causes', function (){
 	return view('pages.causes.causes');
 });
 
+Route::view('chart', 'pages.banner.chart');
+
 Route::get('/gallery', function (){
 	return view('pages.gallery.gallery');
 });

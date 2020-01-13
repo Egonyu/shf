@@ -301,25 +301,26 @@
 					<div class="col-sm-6 col-md-6">
 						<div class="testimonial-1">
 		              		<div class="media">
-	              				<img src="images/dummy-img-400x400.jpg" alt="" class="img-fluid">
+	              				<img src="{{('frontend/images/volunteers/talban.jpg')}}" alt="" class="img-fluid">
 	              			</div>
 			              	<div class="body">
-			                	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-			                	<div class="title">Raisa Doel</div>
-			                	<div class="company">House Keeper</div>
+			                	<p>Sauzar Health Foundation I can see the better future of our country in this your movement, considering the challenges of our dear nation and the globe at large you have brought a very big project that needs each and everyone to come on board and support this movement  for our own good and our generation, insha Allah You will succeed and I hope government and other leaders will come and support this organisation for the best of society and  I can see it as a root to reach out community to ease our work, even traditional leaders need to come on board in fact all resourceful persons and people with productive ideas. Thank you may God be your guide in all your affairs ameen.</p>
+			                	<div class="title">ENGR. ABBA ALIYU KADADE MNSE FCIA</div>
+			                	<div class="company">TALBAN SHETTIMAN DUTSE, NIGERIAN</div>
 			              	</div>
 			            </div>
 					</div>
-{{-- 
+
 					<div class="col-sm-6 col-md-6">
 						<div class="testimonial-1">
 		              		<div class="media">
-	              				<img src="images/dummy-img-400x400.jpg" alt="" class="img-fluid">
+	              				<img src="{{('frontend/images/volunteers/ruth.jpg')}}" alt="" class="img-fluid">
 	              			</div>
 			              	<div class="body">
-			                	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum has been. Mauris ornare tortor in eleifend blanditullam ut ligula et neque. Nulla interdum dapibus erat nec elementum. </p>
-			                	<div class="title">Josh Doel</div>
-			                	<div class="company">Contractor</div>
+			                	<p>Sauzar Health Foundation though a newly founded organisation has a great vision for the continent Africa and the world at large. They propose an idealistic approach to resolving pollution hence improving sanitation which goes a long way to strengthen the health status hence better productivity and economic growth. The passion with which the youths carry out the mission gives us hope in our future leadership.</p>
+								<div class="title">Emalieu Sayab Ruth Diana</div>
+								<div class="title">Forth Year Medical Student, Islamic University In Uganda </div>
+			                	<div class="company">Cameroon</div>
 			              	</div>
 			            </div>
 					</div>
@@ -335,7 +336,7 @@
 			                	<div class="company">Freelance</div>
 			              	</div>
 			            </div>
-					</div> --}}
+					</div>
 
 				</div>
 			</div>
